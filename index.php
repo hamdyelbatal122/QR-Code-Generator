@@ -102,9 +102,9 @@ if(isset($_POST['submit']) ) {
 				</center>
 			</div>
 			<div class = "dllink" style="text-align:center;margin:-100px 0px 50px 0px;">
-				<h4>Developer: John Carlo Nañoz</h4>
+				<h4>Developer: hamdy </h4>
 			</div>
 		</div>
 	</body>
-	<footer><center><br>Brought To You By: code-projects.org</center></footer>
+	<footer><center><br></center></footer>
 </html>
