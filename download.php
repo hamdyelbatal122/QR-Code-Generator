@@ -12,10 +12,4 @@ if(!empty($_GET['file'])){
         header("Content-Type: application/zip");
         header("Content-Transfer-Encoding: binary");
         
-        // Read the file
-        readfile($filePath);
-        exit;
-    }else{
-        echo 'The File '.$fileName.' does not exist.';
-    }
-}
+  
