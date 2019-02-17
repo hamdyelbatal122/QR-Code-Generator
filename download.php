@@ -13,3 +13,10 @@ if(!empty($_GET['file'])){
         header("Content-Transfer-Encoding: binary");
         
   
+      // Read the file
+        readfile($filePath);
+        exit;
+    }else{
+        echo 'The File '.$fileName.' does not exist.';
+    }
+}
