@@ -3,7 +3,6 @@ QR Code Generator is developed using PHP QR CODE Library with CSS, Bootstrap, an
 
 This project only focuses on generating QR Code. Design of this project is simple so that the user won’t find any difficulties while working on it. QR Code Generator in PHP helps for generating QR codes within a short period of time. To run this project you must have installed virtual server i.e XAMPP on your PC. QR Code Generator in PHP with source code is free to download, Use for educational purposes only! For the project demo, have a look at the image slider below.
 
-
 Features:
 Generate QR Code
 Downloadable image
