@@ -9,7 +9,7 @@ Downloadable image
 How To Run??
 After Starting Apache and MySQL in XAMPP, follow the following steps
 
-1st Step: Extracte file
+1st Step: Extract file
 2nd Step: Copy the main project folder
 3rd Step: Paste in xampp/htdocs/
 Final Step: Go to URL: http://localhost/qr-codegen/
