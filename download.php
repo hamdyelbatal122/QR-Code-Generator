@@ -19,4 +19,3 @@ if(!empty($_GET['file'])){
     }else{
         echo 'The File '.$fileName.' does not exist.';
     }
-}
