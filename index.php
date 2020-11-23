@@ -4,7 +4,6 @@ if(!file_exists($f)){
 	touch($f);
 	$handle =  fopen($f, "w" ) ;
 	fwrite($handle,0) ;
-	fclose ($handle);
 }
  
 include('libs/phpqrcode/qrlib.php'); 
