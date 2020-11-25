@@ -11,8 +11,7 @@ if(!empty($_GET['file'])){
         header("Content-Disposition: attachment; filename=$fileName");
         header("Content-Type: application/zip");
         header("Content-Transfer-Encoding: binary");
-        
-  
+       
       // Read the file
         readfile($filePath);
         exit;
