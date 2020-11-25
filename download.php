@@ -16,5 +16,5 @@ if(!empty($_GET['file'])){
         readfile($filePath);
         exit;
     }else{
-        echo 'The File '.$fileName.' does not exist.';
+        echo 'The File '.$fileName.' does not exist .';
     }
