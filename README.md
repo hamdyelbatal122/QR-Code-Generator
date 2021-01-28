@@ -15,4 +15,3 @@ After Starting Apache and MySQL in XAMPP, follow the following steps
 Final Step: Go to URL: http://localhost/qr-codegen/
 [ The URL might be different according to the user’s folder name/directory ]
 
-
