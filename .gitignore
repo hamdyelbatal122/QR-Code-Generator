@@ -1,0 +1,25 @@
+# Temporary and cache files
+temp/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Cache directories
+libs/cache/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.directory

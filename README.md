@@ -1,17 +1,94 @@
-About Project
-QR Code Generator is developed using PHP QR CODE Library with CSS, Bootstrap, and JavaScript. Talking about the project, a user can generate QR codes easily just by providing his/her email address, subject, and message. After generating QR code, the user can download it too. This QR code generator focuses on sharing email address details. For the designing part, it uses Embedded CSS and Bootstrap 3.3.7. After generating QR code, all the images are stored inside the “temp” folder for backups.
+# QR Code Generator
 
-This project only focuses on generating QR Code. Design of this project is simple so that the user won’t find any difficulties while working on it. QR Code Generator in PHP helps for generating QR codes within a short period of time. To run this project you must have installed virtual server i.e XAMPP on your PC. QR Code Generator in PHP with source code is free to download, Use for educational purposes only! For the project demo, have a look at the image slider below.
+A simple and elegant QR Code Generator built with PHP, Bootstrap, and JavaScript.
 
-Features:
-Generate QR Code
-Downloadable image
-How To Run??
-After Starting Apache and MySQL in XAMPP, follow the following steps
+## 📋 About Project
 
-1st Step: Extract file
-2nd Step: Copy the main project folder
-3rd Step: Paste in xampp/htdocs/
-Final Step: Go to URL: http://localhost/qr-codegen/
-[ The URL might be different according to the user’s folder name/directory ]
+QR Code Generator is developed using PHP QR CODE Library with CSS, Bootstrap, and JavaScript. Users can generate QR codes easily by providing an email address, subject, and message. The generated QR codes can be downloaded for use. This QR code generator focuses on sharing email address details with embedded styling using Bootstrap 3.3.7.
 
+## ✨ Features
+
+- ✅ Generate QR Codes from email details
+- 📥 Download generated QR Code images
+- 🎨 Clean and intuitive user interface
+- ⚡ Fast QR code generation
+- 📱 Responsive design
+
+## 🛠️ Tech Stack
+
+- **Backend**: PHP 5.x+
+- **Frontend**: HTML5, CSS3, Bootstrap 3.3.7, JavaScript
+- **QR Library**: PHP QR Code Library
+- **Server**: Apache (XAMPP/LAMP/LEMP)
+
+## 📥 Installation & Setup
+
+### Prerequisites
+- XAMPP, WAMP, LAMP, or any Apache + PHP server
+- PHP 5.x or higher
+
+### Steps to Run
+
+1. **Extract the project files**
+   ```bash
+   unzip QR-Code-Generator.zip
+   ```
+
+2. **Copy to server directory**
+   ```bash
+   cp -r QR-Code-Generator /path/to/xampp/htdocs/
+   ```
+
+3. **Start Apache & MySQL** (if using XAMPP)
+   - Open XAMPP Control Panel
+   - Click "Start" for Apache
+
+4. **Access the application**
+   ```
+   http://localhost/QR-Code-Generator/
+   ```
+   
+   *(URL may vary based on your folder name)*
+
+## 📂 Project Structure
+
+```
+QR-Code-Generator/
+├── index.php              # Main application page
+├── download.php           # File download handler
+├── visit.php              # QR code generation logic
+├── README.md              # This file
+├── img/                   # Images & icons
+├── libs/                  # Libraries and dependencies
+│   ├── phpqrcode/         # PHP QR Code library
+│   ├── css/               # Stylesheets
+│   └── navbarclock.js     # Clock JavaScript
+└── temp/                  # Temporary QR code storage (ignored in git)
+```
+
+## 🚀 Usage
+
+1. Open the application in your browser
+2. Enter your email address
+3. Add a subject line
+4. Compose your message
+5. Click "Generate QR Code"
+6. Download the generated QR code image
+
+## 📝 Notes
+
+- Generated QR codes are temporary and stored in the `temp/` folder
+- The application is designed for educational purposes
+- All generated images can be downloaded as PNG files
+
+## 📄 License
+
+Free to use for educational purposes only.
+
+## 👤 Author
+
+Developed as a demonstration project for QR code generation in PHP.
+
+---
+
+**Last Updated**: May 2026
